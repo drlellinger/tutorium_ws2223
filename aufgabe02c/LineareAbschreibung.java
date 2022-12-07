@@ -9,6 +9,30 @@ public class LineareAbschreibung {
 	private int j=2000;
 	private int jahr;
 	private int t;
+	private double a;
+	private int n;
+	
+	public void setAnschaffungskosten() {
+		System.out.println("Wie hoch ist der Anschaffungswert?");
+		this.a  = in.nextDouble();
+	}
+	
+	public void setNutzungsdauer() {
+		System.out.println("Wie lange ist die Nutzungsdauer in Jahren?");
+		this.n  = in.nextInt();
+	}
+	
+	public double getAnschaffungskosten() {
+		return this.a;
+	}
+	
+	public int getNutzungsdauer() {
+		return this.n;
+	}
+	
+	public void inClose() {
+		in.close();
+	}
 	
 	//Methode um die Abschreibung auszuführen:
 	public void linearAbschreiben(int n, double a) {
@@ -35,6 +59,9 @@ public class LineareAbschreibung {
 		for (int i=0; i<(t+1); i++) {
 			System.out.println("Buchwert zum 31.12."+(j+i)+": "+ buchwert[i]+"€");
 		}
+		
+		//Methode um Scanner zu schließen:
+		
 		
 	}
 }
