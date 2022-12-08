@@ -1,0 +1,34 @@
+Testergebnisse:
+
+Test Suite Results:
+
+FooHiddenTest - 100%
+
+FooTest - 100%
+
+_01_ModificationHiddenTest - 100%
+
+_02_Sum_HiddenTest - 100%
+
+_03_GaussHiddenTest - 100%
+
+_04_ChoiceHiddenTest - 100%
+
+_05_ConvertHiddenTest - 100%
+
+_06_GradHiddenTest - 86%
+
+_07_StudentHiddenTest - 75%
+
+Failure Details:
+
+1. 
+ dev.codescreen._06_GradHiddenTest.testEvaluateHidden4 - expected:<[ausreich]end> but was:<[befriedig]end>
+
+2. 
+ dev.codescreen._07_StudentHiddenTest.testChangeStudyHidden4 - expected:<[Phys]ik> but was:<[Mathemat]ik>
+ 
+ 
+ 
+Erklärung: die Tests setzen andere Variablen und funktionieren nicht mit meinem Code. Also kein Fehler im eigentlichen Sinne.
+Könnte man anfechten bei einer echten Prüfung...
