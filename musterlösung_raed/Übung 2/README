@@ -1,0 +1,39 @@
+Insgesamt 70%
+
+Test Suite Results:
+
+BuchHiddenTest - 43%
+
+KursHiddenTest - 100%
+
+OperationHiddenTest - 79%
+
+Failure Details:
+
+1. 
+ dev.codescreen.BuchHiddenTest.testErhoehePreisHidden2 - expected:<130.0> but was:<125.0>
+
+2. 
+ dev.codescreen.BuchHiddenTest.testErhoehePreisHidden3 - expected:<130.0> but was:<100.0>
+
+3. 
+ dev.codescreen.BuchHiddenTest.testErhoehePreisHidden6 - expected:<100.0> but was:<70.0>
+
+4. 
+ dev.codescreen.BuchHiddenTest.testErhoehePreisHidden8 - expected:<100.0> but was:<70.0>
+
+5. 
+ dev.codescreen.OperationHiddenTest.testIsTeilbarHidden2 - java.lang.AssertionError
+	at dev.codescreen.OperationHiddenTest.testIsTeilbarHidden2(OperationHiddenTest.java:50)
+
+6. 
+ dev.codescreen.OperationHiddenTest.testIsTeilbarHidden3 - java.lang.AssertionError
+	at dev.codescreen.OperationHiddenTest.testIsTeilbarHidden3(OperationHiddenTest.java:56)
+
+7. 
+ dev.codescreen.OperationHiddenTest.testIsTeilbarHidden4 - java.lang.AssertionError
+	at dev.codescreen.OperationHiddenTest.testIsTeilbarHidden4(OperationHiddenTest.java:62)
+  
+  
+  
+  Die Aufgaben sind entgegen der Fehlermeldungen richtig - könnte man anfechten.
