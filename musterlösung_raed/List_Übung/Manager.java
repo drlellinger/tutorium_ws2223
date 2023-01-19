@@ -34,7 +34,6 @@ public class Manager {
 	}
 	
 	
-	
 	public List<Student> filterAfterName(String name){
 		List <Student> result = new LinkedList<>();
 		for(Student s: studentList) {
@@ -45,5 +44,14 @@ public class Manager {
 		return result;
  	}
 	
+	public List<Student> filterAfterNameAndAge(String name, int age){
+		List <Student> result = new LinkedList<>();
+		for(Student s: studentList) {
+			if( (s.getName().equals(name))&&(s.getAge() >= age)) {
+				result.add(s);
+			}
+		}
+		return result;
+ 	}
 	
 }
